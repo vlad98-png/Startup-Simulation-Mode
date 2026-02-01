@@ -1,0 +1,9 @@
+export interface Task {
+    id: string
+    title: string
+    isCompleted: boolean
+    createdAt: string
+  }
+  
+  export type FilterType = 'all' | 'active' | 'completed'
+  
